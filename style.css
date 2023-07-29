@@ -619,3 +619,62 @@ body{
     fill: #b3b3b3;
 }
 
+.company{
+    color: white;
+}
+
+.company-matter{
+    color: #727272;
+}
+
+.company-matter:hover{
+    text-decoration: underline;
+}
+
+
+.company-wraper{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 110px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.social-media{
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.social-media-rounder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px;
+    border-radius: 50%;
+    background-color: #727272;
+}
+
+.horizontal-line{
+    width: 65vw;
+    background-color: #727272;
+}
+
+.legal{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.legal-rights{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
